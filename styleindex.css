@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@700&display=swap');
+
 .header {
     background-image: url(assets/assets/main-bg.jpg);
     background-position: 50% 50%;
@@ -5,12 +7,22 @@
     height: 100vh;
 }
 
+.container {
+    height: 90px;
+    width: 1440px;
+    left: 0px;
+    top: -0.299957275390625px;
+    border-radius: 0px;
+}
+
 .nav-style {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .nav-item, .navbar-dark, .nav-link {
     color: white!important;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 .nav-item:hover {
@@ -21,3 +33,136 @@
     border-radius: 0%;
     background-color: orange;
 }
+
+.logo-style {
+    position: absolute;
+    width: 77px;
+    height: 33px;
+    left: 107px;
+    top: 28.7px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+}
+
+.menu-home {
+    position: absolute;
+    height: 20.19px;
+    width: 67.51px;
+    left: 326px;
+    top: 37.31px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+}
+
+.menu-work {
+    position: absolute;
+    width: 65.81px;
+    height: 20.19px;
+    left: 425.55px;
+    top: 37.31px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+}
+
+.menu-contact {
+    position: absolute;
+    width: 154.8px;
+    height: 20.19px;
+    left: 529.54px;
+    top: 37.31px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+}
+
+.menu-about {
+    position: absolute;
+    width: 101px;
+    height: 20px;
+    left: 647px;
+    top: 37.7px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+}
+
+.menu-signup {
+    position: absolute;
+    height: 21.4px;
+    left: 1139px;
+    top: 36.7px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16.34px;
+    text-align: right;
+    letter-spacing: 0.1em;
+}
+
+.menu-login {
+    position: absolute;
+    width: 64.83px;
+    height: 21.4px;
+    left: 1213px;
+    top: 36.7px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+}
+
+h1 {
+    position: absolute;
+    height: 73.12px;
+    width: 1156.51px;
+    left: 132.72px;
+    top: 313.38px;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h3 {
+    position: absolute;
+    width: 525.63px;
+    height: 27.67px;
+    top: 443.78px;
+    left: 487.29px;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
